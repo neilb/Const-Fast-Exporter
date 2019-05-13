@@ -119,6 +119,16 @@ then you should probably just use L<Exporter> or similar.
 
 L<Const::Fast> - lets you define read-only scalars, hashes, and arrays.
 
+L<Const::Exporter> - another module you can use to create your
+own module that exports constant and immutable variables.
+
+L<Exporter::Constants> - declare and export function-based constants,
+similar to those declared with the L<constant> pragma.
+
+L<Constant::Exporter> - declare and export function-based constants.
+
+L<Constant::Export::Lazy> - create a module that exports constants,
+where the value is only generated the first time its used.
 
 =head1 REPOSITORY
 
