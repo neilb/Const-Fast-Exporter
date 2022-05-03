@@ -58,7 +58,6 @@ my $immutable_variables_exporter = sub {
 #=======================================================================
 sub import
 {
-    my $exporting_package = shift;
     my $importing_package = caller();
 
     no strict 'refs';
